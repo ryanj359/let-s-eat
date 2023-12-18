@@ -1,0 +1,332 @@
+html {
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background: white
+}
+
+body {
+    width: 100%;
+    max-width: none;
+    max-height: none;
+    margin: auto;
+}
+
+/* Top Header */
+
+#main-header img {
+    display: block;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+/* Navigation System */
+
+#main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: .5em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+    #main-nav ul {
+        list-style-type: none;
+        margin: .5em;
+    }
+
+    #main-nav li {
+        display: inline;
+        margin-left: 7em;
+        margin-right: 7em;
+        margin-bottom: 2em;
+    }
+
+    #main-nav a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        font-style: oblique;
+    }
+
+    #main-nav a:hover {
+        border: black dotted 2px;
+    }
+
+main {
+    background: white;
+}
+
+
+    #h1-index {
+        text-align: center;
+        margin-top: 3em;
+        margin-bottom: 1.5em;
+        font-size: 25px;
+        font-weight: lighter;
+        padding: .5em;
+        background-color: rgb(255, 225, 230);
+    }
+
+    /* Center Image */
+
+    .center {
+        display: block;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Fridge Images */
+    #fridge {
+        display: block;
+        position: relative;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #left-fridge-top {
+        position: absolute;
+        top: 60%;
+        bottom: 40%;
+        left: 30%;
+        right: 70%;
+    }
+
+    #right-fridge-top {
+        position: absolute;
+        top: 55%;
+        bottom: 45%;
+        left: 50%;
+        right: 50%;
+    }
+
+    #left-fridge-topMid {
+        position: absolute;
+        top: 107%;
+        bottom: 0%;
+        left: 25%;
+        right: 75%;
+    }
+
+    #center-fridge-topMid {
+        position: absolute;
+        top: 111%;
+        bottom: 0%;
+        left: 45%;
+        right: 55%;
+    }
+
+    #right-fridge-topMid {
+        position: absolute;
+        top: 107%;
+        bottom: 0%;
+        left: 60%;
+        right: 40%;
+    }
+
+    #left-fridge-btmMid {
+        position: absolute;
+        top: 140%;
+        bottom: 0%;
+        left: 28%;
+        right: 62%;
+    }
+
+    #right-fridge-btmMid {
+        position: absolute;
+        top: 145%;
+        bottom: 0%;
+        left: 50%;
+        right: 50%;
+    }
+
+    #left-fridge-btm {
+        position: absolute;
+        top: 175%;
+        bottom: 0%;
+        left: 28%;
+        right: 62%;
+    }
+
+    #right-fridge-btm {
+        position: absolute;
+        top: 187%;
+        bottom: 0%;
+        left: 55%;
+        right: 45%;
+    }
+
+    /* Map Images */
+
+    #map {
+        display: block;
+        position: relative;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #matto-pin {
+        position: absolute;
+        top: 380%;
+        bottom: 0%;
+        left: 52%;
+        right: 48%;
+    }
+
+    #yunnan-pin {
+        position: absolute;
+        top: 412%;
+        bottom: 0%;
+        left: 60%;
+        right: 40%;
+    }
+
+    #aten-pin {
+        position: absolute;
+        top: 375%;
+        bottom: 0%;
+        left: 68%;
+        right: 32%;
+    }
+
+    #panna-pin {
+        position: absolute;
+        top: 383.5%;
+        bottom: 0%;
+        left: 61%;
+        right: 39%;
+    }
+
+    #veniero-pin {
+        position: absolute;
+        top: 375%;
+        bottom: 0%;
+        left: 61%;
+        right: 39%;
+    }
+
+    #jerrell-pin {
+        position: absolute;
+        top: 396%;
+        bottom: 0%;
+        left: 46%;
+        right: 54%;
+    }
+
+    /* Article Layouts */
+
+    .article-text {
+        margin-left: 17em;
+        margin-right: 17em;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        text-align: center;
+    }
+
+    .h1-articles {
+        text-align: center;
+        padding: .25em;
+        background-color: rgb(255, 225, 230);
+    }
+
+    .centerImg-border {
+        display: block;
+        width: 1200px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2em;
+        background-color: rgb(255, 225, 230);
+    }
+
+    #imgRight-border {
+        display: flex;
+        float: right;
+        width: 350px;
+        margin-top: 2em;
+        margin-bottom: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2em;
+        background-color: rgb(255, 225, 230);
+    }
+
+    #aboutText {
+        flex-wrap: wrap;
+        margin-left: 5em;
+        margin-right: 2em;
+        margin-top: 7em;
+        margin-bottom: 5em;
+    }
+
+/* Grid Layouts */
+
+@media (max-width:600px) {
+    #grid-1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;      
+    }
+        
+        #grid-1 a {
+            display: flex;
+        }
+        
+        #grid-1 img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2em;
+            margin-left: .5em;
+            margin-right: .5em;
+            padding: .75em;
+            background-color: rgb(255, 225, 230);
+        }
+}
+
+#grid-1 {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: center;      
+}
+    
+    #grid-1 a {
+        display: inline-flex;
+    }
+    
+    #grid-1 img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 2em;
+        margin-left: .5em;
+        margin-right: .5em;
+        padding: .75em;
+        background-color: rgb(255, 225, 230);
+    }
+
+
+/* Bottom Footer */
+
+#bottom-footer {
+    position: sticky;
+    background-color: black;
+    color: white;
+    padding: .35em;
+}
+
+    #bottom-footer address {
+        text-align: left;
+        font-style: normal;
+    }
